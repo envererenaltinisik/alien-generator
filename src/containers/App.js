@@ -9,7 +9,7 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      robots: [],
+      aliens: [],
       searchfield: "",
     };
   }
@@ -20,7 +20,7 @@ class App extends Component {
         return response.json();
       })
       .then((users) => {
-        this.setState({ robots: users });
+        this.setState({ aliens: users });
       });
   }
 
@@ -29,11 +29,11 @@ class App extends Component {
   };
 
   render() {
-    const { robots, searchfield } = this.state;
-    const filteredRobots = robots.filter((robot) => {
-      return robot.name.toLowerCase().includes(searchfield.toLowerCase());
+    const { aliens, searchfield } = this.state;
+    const filteredAliens = aliens.filter((alien) => {
+      return alien.name.toLowerCase().includes(searchfield.toLowerCase());
     });
-    return !robots.length ? (
+    return !aliens.length ? (
       <h1>Loading</h1>
     ) : (
       <div className="tc">
@@ -41,7 +41,7 @@ class App extends Component {
         <SearchBox searchChange={this.onSearchChange} />
         <Scroll>
           <ErrorBoundry>
-            <CardList robots={filteredRobots} />
+            <CardList aliens={filteredAliens} />
           </ErrorBoundry>
         </Scroll>
       </div>
