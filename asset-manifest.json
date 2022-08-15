@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/alien-generator/static/css/main.ab71a210.css",
+    "main.js": "/alien-generator/static/js/main.212600d8.js",
+    "static/js/787.0f18c4c9.chunk.js": "/alien-generator/static/js/787.0f18c4c9.chunk.js",
+    "static/media/SEGA.woff": "/alien-generator/static/media/SEGA.47b4bfa94ef243af4a5b.woff",
+    "index.html": "/alien-generator/index.html",
+    "main.ab71a210.css.map": "/alien-generator/static/css/main.ab71a210.css.map",
+    "main.212600d8.js.map": "/alien-generator/static/js/main.212600d8.js.map",
+    "787.0f18c4c9.chunk.js.map": "/alien-generator/static/js/787.0f18c4c9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab71a210.css",
+    "static/js/main.212600d8.js"
+  ]
+}
