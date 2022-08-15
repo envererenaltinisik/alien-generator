@@ -1,3 +1,7 @@
+# Display Website
+
+If you display this README file, please refresh the page.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
